@@ -1,13 +1,13 @@
-import HeroSection from "@/components/HeroSection";
-import PopularDestinations from "@/components/PopularDestinations";
-import ReviewsSection from "@/components/ReviewsSection";
+import GlampingHero from "@/components/GlampingHero";
+import HotelOffers from "@/components/HotelOffers";
+import GlampingReviews from "@/components/GlampingReviews";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <HeroSection />
-      <PopularDestinations />
-      <ReviewsSection />
+      <GlampingHero />
+      <HotelOffers />
+      <GlampingReviews />
     </div>
   );
 };
